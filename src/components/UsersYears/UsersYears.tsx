@@ -10,7 +10,6 @@ import {
 } from "recharts";
 import { CustomTooltip } from "../CustomTooltip/CustomTooltip";
 import { Card } from "../Card/Card";
-import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { Info } from "../Info/Info";
 
 export const UsersYears = () => {
@@ -44,13 +43,16 @@ export const UsersYears = () => {
         return [...prevValue, { name: year, amt: data?.Data?.Total }];
       });
     }
-  }, [data]);
+  }, [data, year]);
 
   if (error) {
     <p>Seems there was an error retrieving the data, try again later</p>;
   }
   return (
-    <div className="min-h-screen flex flex-1 flex-col">
+    <div
+      id="users-years"
+      className="min-h-screen flex flex-1 flex-col lg:p-0 pt-10"
+    >
       <h1 className="text-2xl font-bold tracking-tight text-gray-50 sm:text-5xl lg:w-1/2 lg:p-10 p-5">
         Tracking the Growth of Internet Users Worldwide
       </h1>

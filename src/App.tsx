@@ -3,10 +3,42 @@ import "./App.css";
 import { UsersYears } from "./components/UsersYears/UsersYears";
 import { CountryYear } from "./components/CountryYear/CountryYear";
 import { TopCountries } from "./components/TopCountries/TopCountries";
+import { MapContainer } from "./components/MapContainer/MapContainer";
+
+const nav = [
+  {
+    name: "Growth",
+    href: "users-years",
+  },
+  {
+    name: "By country",
+    href: "country-years",
+  },
+  {
+    name: "Internet Giants",
+    href: "top-countries",
+  },
+  {
+    name: "World Map",
+    href: "world-map",
+  },
+];
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-950  flex flex-col relative isolate">
+      <ul className="z-50 flex text-sm flex-row items-center p-4 fixed ml-auto w-full md:justify-end justify-between md:bg-transparent bg-slate-950/90">
+        {nav.map((item) => (
+          <li className="lg:mx-4 mx-1">
+            <a
+              href={`#${item.href}`}
+              className="text-white hover:text-indigo-400"
+            >
+              {item.name}
+            </a>
+          </li>
+        ))}
+      </ul>
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -22,6 +54,7 @@ function App() {
       <UsersYears />
       <CountryYear />
       <TopCountries />
+      <MapContainer />
     </div>
   );
 }

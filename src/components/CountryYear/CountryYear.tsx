@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useRequest } from "../../hooks/useRequest";
 import { Dropdown } from "../Dropdown/Dropdown";
-import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
 import {
   PieChart,
@@ -80,12 +79,15 @@ export const CountryYear = () => {
     }
   };
   return (
-    <div className="lg:grid lg:grid-cols-12 lg:px-10 px-5 py-10 pt-20 lg:pb-20 items-center">
+    <div
+      id="country-years"
+      className="lg:grid lg:grid-cols-12 lg:px-10 px-5 py-10 pt-20 lg:pb-20 items-center"
+    >
       <div className="col-span-6">
         <span className="text-blue-400 font-bold text-lg">
           Internet adoption by country
         </span>
-        <h2 className="text-2xl sm:text-4xl font-bold text-gray-300 mb-4 lg:w-1/2">
+        <h2 className="text-2xl sm:text-4xl font-bold text-gray-300 mb-4 lg:w-[70%]">
           Examining total users and yearly access
         </h2>
         <div className="grid grid-cols-2 gap-4 ">

@@ -1,0 +1,22 @@
+.map path {
+  fill: rgba(56, 43, 168, 0.2);
+
+  &:hover {
+    fill: rgba(136, 132, 216, 0.5);
+  }
+
+  &:focus {
+    fill: rgba(136, 132, 216, 0.5);
+  }
+  &[aria-checked="true"] {
+    fill: #8884d8;
+  }
+
+  &[aria-current="true"] {
+    fill: #8884d8;
+  }
+}
+
+.show {
+  position: relative;
+}

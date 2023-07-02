@@ -54,7 +54,11 @@ export const TopCountries = () => {
   }, [data, isLoading]);
 
   return (
-    <div data-component="TopCountries" className="lg:px-10 px-5 lg:py-20 py-10">
+    <div
+      id="top-countries"
+      data-component="TopCountries"
+      className="lg:px-10 px-5 lg:py-20 py-10"
+    >
       <div>
         <span className="text-blue-400 font-bold text-lg">Internet Giants</span>
         <h2 className="text-2xl sm:text-4xl font-bold text-gray-300 mb-4 lg:w-1/2">
