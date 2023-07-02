@@ -57,7 +57,7 @@ The main section of the website showcases an animated area graph, illustrating t
 
 In addition to the graph, I have implemented a top analytics section that dynamically updates, however I would have liked to make it update when users hover over a specific year on the graph.
 
-[![UsersxYears](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/usersxyears.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/usersxyears.mp4)
+![userxyears](https://github.com/sofigrijalva/frontend-femhack-challenge/assets/37431668/43372790-8e27-45ce-b737-8c9b12840714)
 
 
 **Create and implement chart displaying Internet Users x Year x Country**
@@ -68,17 +68,21 @@ To handle scenarios where data is unavailable for a particular country or year, 
 
 Additionally, the labels on the graph adapt in real-time based on the user's country and year selections. This dynamic labeling feature further enhances the user experience by providing contextually relevant information alongside the graph.
 
-[![UsersxYears](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/countryxyears.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/countryxyears.mp4)
+
+![countryxyears](https://github.com/sofigrijalva/frontend-femhack-challenge/assets/37431668/bff1c92c-476e-4b6b-8a2b-c0f2f5b78661)
+
 
 **Create and implement last chart displaying Top 10 Countries with the largest number of internet user per Year**
 
 In this section of the website, I utilized the API https://flagsapi.com/ to fetch country flags. Instead of just adding the top 10 countries, I expanded the functionality by incorporating a radar graph that enables users to compare multiple countries. This radar graph dynamically updates as users change the selected year, providing a comprehensive visualization of the data.
 
-[![TopCountries](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/topcountries.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/topcountries.mp4)
+![topcountries](https://github.com/sofigrijalva/frontend-femhack-challenge/assets/37431668/93132e07-4134-41a0-8f0c-752d2f458a85)
+
 
 To enhance the mobile experience and optimize screen space, I implemented a horizontal scrollable list for the country flags. This allows users to scroll through the list horizontally, ensuring efficient utilization of screen real estate and providing a seamless browsing experience on mobile devices.
 
-[![TopCountriesMobile](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/topcountriesmobile.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/topcountriesmobile.mp4)
+![topcountriesmobile](https://github.com/sofigrijalva/frontend-femhack-challenge/assets/37431668/b93e3af6-dff5-4d77-b724-d1b965a8353e)
+
 
 #### Task 3: World Map
 
@@ -88,7 +92,8 @@ To improve the user experience, I recommend implementing tooltips that display t
 
 Additionally, it would be beneficial to incorporate zoom capabilities for the map, especially for mobile devices where interacting with the map can be challenging due to limited screen space.
 
-[![WorldMap](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/worldmap.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/worldmap.mp4)
+![map](https://github.com/sofigrijalva/frontend-femhack-challenge/assets/37431668/31185aaf-a328-4419-86a3-8629427f5a60)
+
 
 ## Next Steps
 
@@ -104,8 +109,10 @@ Additionally, it would be beneficial to incorporate zoom capabilities for the ma
 
 ### Desktop
 
-![Screenshot](public\screenshots\FullPageDesktop.png)
+![Screenshot](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/screenshots/FullPageDesktop.png)
 
-### Desktop
+### Mobile
 
-![Screenshot](public\screenshots\FullPageMobile.png)
+![Screenshot](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/screenshots/FullPageMobile.png)
+
+### MORE VIDEOS ON THE PUBLIC FOLDER
