@@ -59,6 +59,7 @@ In addition to the graph, I have implemented a top analytics section that dynami
 
 [![UsersxYears](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/usersxyears.mp4)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/videos/usersxyears.mp4)
 
+
 **Create and implement chart displaying Internet Users x Year x Country**
 
 The landing page includes a second graph that offers users the flexibility to customize the data they want to view. Users can select the desired country and year, and the graph dynamically updates to display the corresponding data. Notably, the graph incorporates animated transitions whenever users change the country or year selection, providing a smooth and visually appealing experience.
