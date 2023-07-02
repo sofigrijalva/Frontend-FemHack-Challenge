@@ -33,7 +33,7 @@ What is great about it, is that we don't need that initial `useEffect` in every 
 
 ## Description
 
-![Screenshot](public\screenshots\screenshot1.png)
+[![Screenshot](public/screenshots/screenshot1.png)](https://github.com/sofigrijalva/frontend-femhack-challenge/blob/master/public/screenshots/screenshot1.png)
 
 For my hackathon solution, I decided to create a visually engaging landing page inspired by the dark mode aesthetic commonly seen on platforms like GitHub. The design has a tech-oriented look and feel, which aligns with the theme of the project.
 
